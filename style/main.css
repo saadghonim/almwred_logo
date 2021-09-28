@@ -1,0 +1,52 @@
+.st0{fill: #F47C20;}
+.st1{fill: #192D58;}
+.st2{fill: #E72D38;}
+
+svg{
+  width:200px;
+  height: 200px;
+}
+
+.st0 {
+  width: 100px;
+  height: 100px;
+  fill: #F47C20;
+  animation-name: text1 ;
+  animation-duration: 1.3s;
+  animation: text1 1.9s infinite;
+  -webkit-animation: text1 1.9s infinite;
+}
+
+@keyframes text1 {
+  from {filter: grayscale(1); }
+  to {fill: #F47C20;}
+}
+.st1 {
+  width: 100px;
+  height: 100px;
+  fill: #192D58;
+  animation-name: text2;
+  animation-duration: 1.8s ;
+  animation: text2 1.9s infinite;
+  -webkit-animation: text2 1.9s infinite;
+}
+
+@keyframes text2 {
+  from { filter: grayscale(1); -webkit-filter: grayscale(1); }
+  to {fill: #192D58;}
+}
+
+.st2 {
+  width: 100px;
+  height: 100px;
+  fill: #E72D38;
+  animation-name: text3;
+  animation-duration: .5s;
+  animation: text3 1.9s infinite;
+  -webkit-animation: text3 1.9s infinite;
+}
+
+@keyframes text3 {
+  from {filter: grayscale(1);}
+  to {fill: #E72D38;}
+}
